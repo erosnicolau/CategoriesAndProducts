@@ -1,0 +1,635 @@
+{
+  "is_error": false,
+  "error_messages": [],
+  "data": {
+    "total_pages": 4,
+    "current_page": 1,
+    "products_total": 66,
+    "start_number": 1,
+    "end_number": 20,
+    "products": [
+      {
+        "product_id": 1235,
+        "name": "Cititor coduri de bare Motorola Symbol LS2208, USB, stand, negru",
+        "reviews": 33,
+        "weight": 0.66,
+        "model": "LS2208-SR20007R-UR",
+        "manufacturer_name": "Zebra",
+        "price": "567,11 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/motorola/1235-ls2208-sr20007r-ur/1235-ls2208-sr20007r-ur-main.jpg",
+        "availability": "In stoc",
+        "add_to_cart": true,
+        "rating": 4.9091,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 2011,
+        "name": "Cititor coduri de bare Honeywell Eclipse MK5145, serial, negru",
+        "reviews": 0,
+        "weight": 0.8,
+        "model": "MK5145-31C41-EU",
+        "manufacturer_name": "Honeywell",
+        "price": "521,18 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/2011-mk5145-31c41-eu/2011-mk5145-31c41-eu-main.jpg",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 0,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 2010,
+        "name": "Cititor coduri de bare Honeywell Eclipse MK5145, serial, alb",
+        "reviews": 2,
+        "weight": 0.8,
+        "model": "MK5145-71C41-EU",
+        "manufacturer_name": "Honeywell",
+        "price": "551,92 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/2010-mk5145-71c41-eu/2010-mk5145-71c41-eu-main.jpg",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 4.5,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 1810,
+        "name": "Cititor coduri de bare Honeywell Eclipse MK5145, USB, negru",
+        "reviews": 6,
+        "weight": 0.8,
+        "model": "MK5145-31A38-EU",
+        "manufacturer_name": "Honeywell",
+        "price": "354,16 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/1810-mk5145-31a38-eu/1810-mk5145-31a38-eu-main-9843.jpg",
+        "availability": "In stoc",
+        "add_to_cart": true,
+        "rating": 4.3333,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 2606,
+        "name": "Cititor coduri de bare Datalogic Touch 65 TD1100, USB, stand, negru",
+        "reviews": 1,
+        "weight": 1,
+        "model": "TD1120-BK-65K1",
+        "manufacturer_name": "Datalogic",
+        "price": "321,41 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/datalogic/2606-td1120-bk-65k1/2606-td1120-bk-65k1-main.jpg",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 5,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 2607,
+        "name": "Cititor coduri de bare Datalogic Touch 90 TD1100, USB, stand, negru",
+        "reviews": 3,
+        "weight": 1,
+        "model": "TD1120-BK-90K1",
+        "manufacturer_name": "Datalogic",
+        "price": "321,41 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/datalogic/2607-td1120-bk-90k1/2607-td1120-bk-90k1-main-664.jpg",
+        "availability": "In stoc",
+        "add_to_cart": true,
+        "rating": 5,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 3301,
+        "name": "Cititor coduri de bare Honeywell Eclipse MK5145, USB, stand, negru",
+        "reviews": 1,
+        "weight": 0.8,
+        "model": "MK5145-32A38-EU",
+        "manufacturer_name": "Honeywell",
+        "price": "596,25 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/3301-mk5145-32a38-eu/3301-mk5145-32a38-eu-main.jpg",
+        "availability": "Stoc furnizor limitat ",
+        "add_to_cart": true,
+        "rating": 4,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 1461,
+        "name": "Cititor coduri de bare Motorola Symbol LI2208, USB, stand, negru",
+        "reviews": 6,
+        "weight": 0.66,
+        "model": "LI2208-SR7U2100SGW",
+        "manufacturer_name": "Zebra",
+        "price": "553,52 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/motorola/1461-li2208-sr7u2100sgw/1461-li2208-sr7u2100sgw-main.jpg",
+        "availability": "In stoc",
+        "add_to_cart": true,
+        "rating": 5,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 8168,
+        "name": "Cititor coduri de bare Honeywell MK3780, RS232, stand, negru",
+        "reviews": 0,
+        "weight": 0.5,
+        "model": "MK3780-61C41",
+        "manufacturer_name": "Honeywell",
+        "price": "1.906,42 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/8168-mk3780-61c41/8168-mk3780-61c41-main.png",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 0,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 1238,
+        "name": "Cititor coduri de bare Motorola Symbol LS1203, USB, stand, negru",
+        "reviews": 9,
+        "weight": 0.65,
+        "model": "LS1203-7AZU0100ER",
+        "manufacturer_name": "Zebra",
+        "price": "415,98 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/zebra/1238-ls1203-7azu0100er/1238-ls1203-7azu0100er-main-8040.jpg",
+        "availability": "In stoc",
+        "add_to_cart": true,
+        "rating": 4.6667,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 1236,
+        "name": "Cititor coduri de bare Motorola Symbol LS2208, serial, stand, negru BUG",
+        "reviews": 2,
+        "weight": 0.86,
+        "model": "LS2208-7AZR0100ER",
+        "manufacturer_name": "Zebra",
+        "price": "618,94 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/motorola/1236-ls2208-7azr0100er/1236-ls2208-7azr0100er-main.jpg",
+        "availability": "In stoc",
+        "add_to_cart": true,
+        "rating": 5,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 196,
+        "name": "Cititor coduri de bare Motorola Symbol LS2208, USB, stand, alb",
+        "reviews": 11,
+        "weight": 0.66,
+        "model": "LS2208-SR20001R-UR",
+        "manufacturer_name": "Zebra",
+        "price": "596,13 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/zebra/196-ls2208-sr20001r-ur/196-ls2208-sr20001r-ur-main.jpg",
+        "availability": "In stoc",
+        "add_to_cart": true,
+        "rating": 4.8182,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 1144,
+        "name": "Cititor coduri de bare Datalogic QuickScan QW2120, USB, stand",
+        "reviews": 17,
+        "weight": 0.5,
+        "model": "QW2120-BKK1S",
+        "manufacturer_name": "Datalogic",
+        "price": "376,73 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/datalogic/1144-qw2120-bkk1s/1144-qw2120-bkk1s-main.jpg",
+        "availability": "In stoc",
+        "add_to_cart": true,
+        "rating": 5,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 898,
+        "name": "Cititor coduri de bare Honeywell Hyperion 1300G, USB, negru",
+        "reviews": 0,
+        "weight": 0.7,
+        "model": "1300G-2USB",
+        "manufacturer_name": "Honeywell",
+        "price": "484,07 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/898-1300g-2usb/898-1300g-2usb-main.jpg",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 0,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 897,
+        "name": "Cititor coduri de bare Honeywell Voyager 1250G, USB, stand, negru",
+        "reviews": 18,
+        "weight": 0.13,
+        "model": "1250G-2USB-1",
+        "manufacturer_name": "Honeywell",
+        "price": "476,80 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/897-1250g-2usb-1/897-1250g-2usb-1-main-5340.jpg",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 4.7222,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 896,
+        "name": "Cititor coduri de bare Honeywell Voyager MK9540, USB, stand, gri",
+        "reviews": 0,
+        "weight": 0.15,
+        "model": "MK9540-77A38",
+        "manufacturer_name": "Honeywell",
+        "price": "926,34 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/896-mk9540-77a38/896-mk9540-77a38-main.jpg",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 0,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 538,
+        "name": "Cititor coduri de bare Honeywell Voyager 1200G, USB, stand, alb",
+        "reviews": 2,
+        "weight": 0.7,
+        "model": "1200G-1USB-1",
+        "manufacturer_name": "Honeywell",
+        "price": "746,96 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/538-1200g-1usb-1/538-1200g-1usb-1-main.jpg",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 5,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 419,
+        "name": "Cititor coduri de bare Honeywell Eclipse MK5145, USB, alb",
+        "reviews": 0,
+        "weight": 0.2,
+        "model": "MK5145-71A38-EU",
+        "manufacturer_name": "Honeywell",
+        "price": "371,59 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/honeywell/419-mk5145-71a38-eu/419-mk5145-71a38-eu-main-4770.jpg",
+        "availability": "Stoc furnizor",
+        "add_to_cart": true,
+        "rating": 0,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 3557,
+        "name": "Cititor coduri de bare Datalogic QuickScan QW2170, serial, stand, negru",
+        "reviews": 0,
+        "weight": 0.3,
+        "model": "QW2170-BKK2S-RM",
+        "manufacturer_name": "Datalogic",
+        "price": "431,29 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/datalogic/3557-qw2170-bkk2s-rm/3557-qw2170-bkk2s-rm-main.jpg",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 0,
+        "price_only_admin": false
+      },
+      {
+        "product_id": 230,
+        "name": "Cititor coduri de bare Motorola Symbol LS1203, USB, alb",
+        "reviews": 2,
+        "weight": 0.2,
+        "model": "LS1203-CR10001R",
+        "manufacturer_name": "Zebra",
+        "price": "559,01 lei",
+        "image": "http://185.237.252.229:1234/image/cache/media/motorola/230-ls1203-cr10001r/230-ls1203-cr10001r-main.jpg",
+        "availability": "Disponibil la comanda",
+        "add_to_cart": true,
+        "rating": 5,
+        "price_only_admin": false
+      }
+    ],
+    "filters": {
+      "min_price": 142,
+      "max_price": 1906,
+      "selected_min_price": 142,
+      "selected_max_price": 1906,
+      "manufacturers": [
+        {
+          "specific_id": 262,
+          "name": "10POS",
+          "count": 1,
+          "selected": 0
+        },
+        {
+          "specific_id": 49,
+          "name": "Datalogic",
+          "count": 21,
+          "selected": 0
+        },
+        {
+          "specific_id": 48,
+          "name": "Honeywell",
+          "count": 19,
+          "selected": 0
+        },
+        {
+          "specific_id": 50,
+          "name": "ITG",
+          "count": 1,
+          "selected": 0
+        },
+        {
+          "specific_id": 43,
+          "name": "Opticon",
+          "count": 1,
+          "selected": 0
+        },
+        {
+          "specific_id": 155,
+          "name": "Posiflex",
+          "count": 1,
+          "selected": 0
+        },
+        {
+          "specific_id": 29,
+          "name": "Unitech",
+          "count": 8,
+          "selected": 0
+        },
+        {
+          "specific_id": 17,
+          "name": "Zebra",
+          "count": 14,
+          "selected": 0
+        }
+      ],
+      "availability": [
+        {
+          "additional_id": "in-stock",
+          "name": "In stoc",
+          "count": 15,
+          "selected": 0
+        }
+      ],
+      "categories": [
+        {
+          "category_id": 50,
+          "category_name": "Cititoare coduri de bare",
+          "slug": "cititoare-coduri-de-bare",
+          "category_count": 0,
+          "children": [
+            {
+              "category_id": 56,
+              "category_name": "Cititoare coduri de bare cu fir 1D",
+              "slug": "cititoare-coduri-de-bare-cu-fir-1d",
+              "category_count": 0,
+              "children": []
+            },
+            {
+              "category_id": 57,
+              "category_name": "Cititoare coduri de bare fara fir (wireless)",
+              "slug": "cititoare-coduri-de-bare-fara-fir-wireless-",
+              "category_count": 0,
+              "children": []
+            },
+            {
+              "category_id": 101,
+              "category_name": "Cititoare coduri de bare fixe (de masa)",
+              "slug": "cititoare-coduri-de-bare-fixe-de-masa-",
+              "category_count": 0,
+              "children": []
+            },
+            {
+              "category_id": 161,
+              "category_name": "Cititoare coduri de bare cu fir 2D",
+              "slug": "cititoare-coduri-de-bare-cu-fir-2d",
+              "category_count": 0,
+              "children": []
+            },
+            {
+              "category_id": 172,
+              "category_name": "Cititoare coduri de bare industriale",
+              "slug": "cititoare-coduri-de-bare-industriale",
+              "category_count": 0,
+              "children": []
+            },
+            {
+              "category_id": 267,
+              "category_name": "Ring scanners",
+              "slug": "ring-scanners",
+              "category_count": 0,
+              "children": []
+            },
+            {
+              "category_id": 268,
+              "category_name": "Cititoare coduri de bare POS",
+              "slug": "cititoare-coduri-de-bare-pos",
+              "category_count": 0,
+              "children": []
+            },
+            {
+              "category_id": 269,
+              "category_name": "Cititoare coduri de bare Healthcare",
+              "slug": "cititoare-coduri-de-bare-healthcare",
+              "category_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "category_specific_filters": [
+        {
+          "filter_group_id": 79,
+          "name": "Standard de protectie",
+          "filters": [
+            {
+              "filter_id": 612,
+              "name": "IP30",
+              "count": 2,
+              "selected": 0
+            },
+            {
+              "filter_id": 713,
+              "name": "IP40",
+              "count": 3,
+              "selected": 0
+            },
+            {
+              "filter_id": 898,
+              "name": "IP41",
+              "count": 1,
+              "selected": 0
+            },
+            {
+              "filter_id": 562,
+              "name": "IP42",
+              "count": 10,
+              "selected": 0
+            },
+            {
+              "filter_id": 733,
+              "name": "IP52",
+              "count": 4,
+              "selected": 0
+            },
+            {
+              "filter_id": 723,
+              "name": "IP54",
+              "count": 2,
+              "selected": 0
+            }
+          ]
+        },
+        {
+          "filter_group_id": 31,
+          "name": "Tip coduri",
+          "filters": [
+            {
+              "filter_id": 206,
+              "name": "1D",
+              "count": 57,
+              "selected": 0
+            },
+            {
+              "filter_id": 207,
+              "name": "2D",
+              "count": 1,
+              "selected": 0
+            }
+          ]
+        },
+        {
+          "filter_group_id": 32,
+          "name": "Forma",
+          "filters": [
+            {
+              "filter_id": 201,
+              "name": "Mobil",
+              "count": 54,
+              "selected": 0
+            },
+            {
+              "filter_id": 639,
+              "name": "Inel",
+              "count": 1,
+              "selected": 0
+            }
+          ]
+        },
+        {
+          "filter_group_id": 34,
+          "name": "Conectivitate",
+          "filters": [
+            {
+              "filter_id": 210,
+              "name": "Cu fir",
+              "count": 52,
+              "selected": 0
+            }
+          ]
+        },
+        {
+          "filter_group_id": 30,
+          "name": "Tehnologie scanare",
+          "filters": [
+            {
+              "filter_id": 205,
+              "name": "Laser",
+              "count": 24,
+              "selected": 0
+            },
+            {
+              "filter_id": 204,
+              "name": "Imager",
+              "count": 12,
+              "selected": 0
+            },
+            {
+              "filter_id": 209,
+              "name": "CCD",
+              "count": 14,
+              "selected": 0
+            },
+            {
+              "filter_id": 722,
+              "name": "Omnidirectional",
+              "count": 2,
+              "selected": 0
+            }
+          ]
+        },
+        {
+          "filter_group_id": 36,
+          "name": "Interfata conexiune",
+          "filters": [
+            {
+              "filter_id": 216,
+              "name": "USB",
+              "count": 38,
+              "selected": 0
+            },
+            {
+              "filter_id": 217,
+              "name": "RS-232 Serial",
+              "count": 9,
+              "selected": 0
+            },
+            {
+              "filter_id": 1072,
+              "name": "TTL",
+              "count": 2,
+              "selected": 0
+            },
+            {
+              "filter_id": 218,
+              "name": "PS2 Keyboard",
+              "count": 6,
+              "selected": 0
+            },
+            {
+              "filter_id": 726,
+              "name": "KBW",
+              "count": 2,
+              "selected": 0
+            }
+          ]
+        },
+        {
+          "filter_group_id": 35,
+          "name": "Culoare",
+          "filters": [
+            {
+              "filter_id": 212,
+              "name": "Negru",
+              "count": 34,
+              "selected": 0
+            },
+            {
+              "filter_id": 213,
+              "name": "Alb",
+              "count": 16,
+              "selected": 0
+            },
+            {
+              "filter_id": 214,
+              "name": "Gri",
+              "count": 5,
+              "selected": 0
+            }
+          ]
+        },
+        {
+          "filter_group_id": 37,
+          "name": "Tip comunicare",
+          "filters": [
+            {
+              "filter_id": 222,
+              "name": "Batch",
+              "count": 1,
+              "selected": 0
+            }
+          ]
+        },
+        {
+          "filter_group_id": 38,
+          "name": "Rezistenta",
+          "filters": [
+            {
+              "filter_id": 224,
+              "name": "Uz general",
+              "count": 54,
+              "selected": 0
+            },
+            {
+              "filter_id": 225,
+              "name": "Robust",
+              "count": 1,
+              "selected": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
