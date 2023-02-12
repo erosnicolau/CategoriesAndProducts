@@ -6,7 +6,7 @@ import "./product.css";
 export default function Product(props) {
   const { data } = props,
     { image, name, availability, price, rating, reviews } = data,
-    discount = Math.floor(Math.random() * 21) + 5,
+    discount = Math.floor(Math.random() * 21) + 5, // Making one up since the JSON doesn't provide any
     priceValue = Number(price.split(" ")[0].split(",").join(".")),
     currency = price.split(" ")[1],
     discountedPrice = priceValue - (priceValue * discount) / 100;
@@ -29,7 +29,12 @@ export default function Product(props) {
     <div className="product-box col">
       <div className="product-item box">
         <div className="discount">{discount}%</div>
-        <div className="favorite" data-toggle="tooltip" data-placement="left" title="Adauga la Favorite">
+        <div
+          className="favorite"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Adauga la Favorite"
+        >
           <i class="fa-regular fa-heart"></i>
         </div>
         <Link to={slug}>

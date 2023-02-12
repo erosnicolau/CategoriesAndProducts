@@ -8,6 +8,12 @@
   text-align: center;
   height: 100%;
   padding-bottom: 8.5rem;
+  transition: 200ms ease-out;
+
+  &:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 2px 2px 15px -5px #5f6062;
+  }
 
   a {
     &,
@@ -53,22 +59,24 @@
 
 .discount {
   position: absolute;
-  left: 0;
+  left: -.375rem;
   top: 1rem;
-  background-color: var(--green);
+  background: rgb(216,124,32);
+  background: linear-gradient(90deg, var(--orange) 0%, var(--red) 100%);
   color: var(--white);
   font-weight: bold;
   font-size: 1.5rem;
   padding: 0 0.5rem;
   z-index: 1;
+  box-shadow: 2px 2px 5px -3px #5f6062;
   &:after {
     content: "";
     display: block;
     position: absolute;
     top: 0;
     right: 0;
-    border: solid 1.175rem;
-    border-color: transparent transparent transparent var(--green);
+    border: solid 1.135rem;
+    border-color: transparent transparent transparent var(--red);
     transform: translateX(100%);
   }
 }
