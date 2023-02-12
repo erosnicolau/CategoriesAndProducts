@@ -1,0 +1,28 @@
+.sort-menu {
+  font-size: 0.875rem;
+
+  & > div {
+    white-space: nowrap;
+  }
+}
+
+.sorting {
+  margin-left: 1.5rem;
+}
+
+.change-display-style {
+  margin-left: 0.75rem;
+
+  input {display: none;}
+  
+  .btn.btn-primary.btn-success {
+    background-color: var(--green);
+    border-color: var(--green);
+  }
+  
+  .btn.btn-primary.btn-light {
+    color: var(--green);
+    border-color: var(--green);
+  }
+}
+

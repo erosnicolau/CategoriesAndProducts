@@ -1,16 +1,15 @@
-import React, {useState, useEffect} from 'react';
-import { loadJSON } from '../../utils/api';
-import FilterList from '../FilterList/FilterList';
-import ProductList from '../ProductList/ProductList'
-
+import React, { useState, useEffect } from "react";
+import { loadJSON } from "../../utils/api";
+import FilterList from "../FilterList/FilterList";
+import ProductList from "../ProductList/ProductList";
+import SortMenu from "../SortMenu/SortMenu";
 
 export default function Wrapper() {
-
   const [data, setData] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
-      const json = await loadJSON('/src/assets/response_1675961490311.json');
+      const json = await loadJSON("/src/assets/response_1675961490311.json");
       setData(json.data);
     };
     fetchData();
@@ -22,14 +21,14 @@ export default function Wrapper() {
     return (
       <>
         <div className="row justify-content-md-center mx-0">
-        <div className="col col-12 col-md-4 col-lg-3">
+          <div className="col col-12 col-md-4 col-lg-3">
             <FilterList data={data.filters} />
           </div>
           <div className="col col-12 col-md-8 col-lg-9">
             <div className="container">
-              <div className="row box mb-3">Header</div>
+              <SortMenu />
               <div className="row box">
-                <ProductList data={data.products}/>
+                <ProductList data={data.products} />
               </div>
             </div>
           </div>
@@ -37,6 +36,4 @@ export default function Wrapper() {
       </>
     );
   }
-
-  
 }
