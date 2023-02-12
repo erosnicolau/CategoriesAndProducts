@@ -3,9 +3,26 @@
   margin-right: -10px;
 }
 
-.product-item {
+.product-item.box {
   position: relative;
   text-align: center;
+  height: 100%;
+  padding-bottom: 8.5rem;
+
+  a {
+    &,
+    &:hover {
+      text-decoration: none;
+      color: unset;
+    }
+  }
+
+  .card-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
 
   .image-container {
     max-width: 100%;
@@ -43,6 +60,7 @@
   font-weight: bold;
   font-size: 1.5rem;
   padding: 0 0.5rem;
+  z-index: 1;
   &:after {
     content: "";
     display: block;
@@ -53,6 +71,14 @@
     border-color: transparent transparent transparent var(--green);
     transform: translateX(100%);
   }
+}
+
+.favorite {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 1;
+  font-size: 1.5rem;
 }
 
 .current-price {
@@ -86,5 +112,27 @@
 
   & > * {
     vertical-align: bottom;
+  }
+}
+
+.itg-add-to-cart {
+  .cart-btn {
+    background-color: var(--green);
+    border-color: var(--green);
+    color: var(--white);
+    &:hover {
+      background-color: #8bc53d;
+      border-color: #8bc53d;
+      color: var(--white);
+    }
+  }
+
+  .cart-icon {
+    &,
+    &:hover {
+      background-color: var(--white);
+      border-color: var(--green);
+      color: var(--black);
+    }
   }
 }

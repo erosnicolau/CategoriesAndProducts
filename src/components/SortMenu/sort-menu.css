@@ -1,3 +1,9 @@
+@custom-media --sm (min-width: 576px);
+@custom-media --md (min-width: 768px);
+@custom-media --lg (min-width: 992px);
+@custom-media --xl (min-width: 1200px);
+@custom-media --xxl (min-width: 1400px);
+
 .sort-menu {
   font-size: 0.875rem;
 
@@ -7,7 +13,10 @@
 }
 
 .sorting {
-  margin-left: 1.5rem;
+  margin-left: .5rem;
+  @media (--lg) {
+    margin-left: 1.5rem;
+  }
 }
 
 .change-display-style {

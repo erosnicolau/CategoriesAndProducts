@@ -10,7 +10,7 @@ export default function SortMenu() {
 
   return (
     <div className="sort-menu row box mb-3">
-      <div className="col-6">
+      <div className="col-12 col-md-6">
         Ordoneaza dupa:
         <div class="btn-group sorting">
           <button
@@ -50,7 +50,7 @@ export default function SortMenu() {
           </ul>
         </div>
       </div>
-      <div className="col-6 text-end">
+      <div className="col-12 col-md-6 text-end mt-3 mt-md-0">
         Tip afisare:
         <div className="btn-group change-display-style" data-toggle="buttons">
           <label
