@@ -1,11 +1,11 @@
-import React from 'react'
-import './product.css'
+import React from "react";
+import "./product.css";
 
 export default function Product() {
   return (
-    <div className='productItem'>
+    <div className="productItem">
       Product
       <span>span</span>
     </div>
-  )
+  );
 }

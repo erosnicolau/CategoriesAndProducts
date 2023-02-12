@@ -6,14 +6,13 @@
   --white: #ffffff;
   --black: #000000;
   --green: #8bc53d;
-  --orange: #FF6600;
+  --orange: #ff6600;
   --gray: #333333;
-  --red: #FF0000;
+  --red: #ff0000;
 
   color-scheme: light;
   color: var(--black);
   background-color: var(--white);
-
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
