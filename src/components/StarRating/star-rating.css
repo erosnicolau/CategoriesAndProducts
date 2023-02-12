@@ -1,0 +1,28 @@
+.rating {
+  display: inline-block;
+  position: relative;
+  width: 6.5em;
+
+  .stars {
+    white-space: nowrap;
+    overflow: hidden;
+
+    i:not(:first-child) {
+      margin-left: 3px;
+    }
+
+    &.gold {
+      color: #f9bf3b;
+      position: relative;
+      z-index: 1;
+    }
+
+    &.gray {
+      color: gray;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 0;
+    }
+  }
+}
