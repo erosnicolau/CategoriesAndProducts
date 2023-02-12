@@ -5,6 +5,7 @@ module.exports = {
       autoprefixer: { grid: true }
     }),
     require('postcss-preset-env'),
-    require('postcss-nested')
+    require('postcss-nested'),
+    require('postcss-custom-media')
   ]
 }

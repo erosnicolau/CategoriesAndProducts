@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "postcss-import": "^15.1.0",
     "postcss-nested": "^6.0.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1"
   },
@@ -20,6 +22,7 @@
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "postcss": "^8.4.21",
+    "postcss-custom-media": "^9.1.2",
     "postcss-preset-env": "^8.0.1",
     "vite": "^4.1.0"
   }

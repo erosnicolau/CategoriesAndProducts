@@ -1,17 +1,23 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import './filter.css'
 
 export default function Filter(props) {
-  const items = props.data,
-    name = props.name;
+  const {data, name, isCheckboxList} = props;
+  console.log(data);
   return (
-    <div>
-      <h2>{name}</h2>
-      {console.log('')}
-      {items.map(item => {
+    <div className='menu-container box mb-3'>
+      <h6 className='fw-bold'>{name}</h6>
+      <ul>
+      {data.map(item => {
         const name = item.name || item.category_name;
-        return(<Link to='##'>{name}</Link>)
+        if(isCheckboxList) {
+          return (<li><label><input type={'checkbox'}/> {name}</label></li>)
+        } else {
+          return(<li><NavLink to={item.slug} activeClassName="active">{name}</NavLink></li>)
+        }
       })}
+      </ul>
     </div>
   )
 }

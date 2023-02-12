@@ -20,14 +20,21 @@ export default function Wrapper() {
     return <div>Loading...</div>;
   } else {
     return (
-      <div className='wrapper'>
-        <div className="sidebar">
-          <FilterList data={data.filters} />
+      <>
+        <div className="row justify-content-md-center mx-0">
+        <div className="col col-12 col-md-4 col-lg-3">
+            <FilterList data={data.filters} />
+          </div>
+          <div className="col col-12 col-md-8 col-lg-9">
+            <div className="container">
+              <div className="row box mb-3">Header</div>
+              <div className="row box">
+                <ProductList data={data.products}/>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="main">
-          <ProductList data={data.products}/>
-        </div>
-      </div>
+      </>
     );
   }
 

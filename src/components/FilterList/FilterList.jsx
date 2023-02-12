@@ -3,13 +3,36 @@ import Filter from '../Filter/Filter';
 
 export default function FilterList(props) {
   const {availability, categories, category_specific_filters, manufacturers} = props.data;
+  console.log(categories)
   return (
     <div>
-      FilterList
-      {availability && <Filter data={availability} name='Availability'/> }
-      {categories && <Filter data={categories} name='Categories'/> }
-      {category_specific_filters && <Filter data={category_specific_filters} name='Category Specific Filters'/> }
-      {manufacturers && <Filter data={manufacturers} name='Manufacturers'/> }
+      {categories && 
+        categories.map(filter => 
+          <Filter 
+            data={filter.children}
+            name={filter.category_name}
+          />
+          )
+      }
+      {manufacturers && <Filter
+        data={manufacturers}
+        name='Brand'
+        isCheckboxList={true}
+      />}
+      {availability && <Filter
+        data={availability} 
+        name='Disponibilitate'
+        isCheckboxList={true}
+      />}
+      {category_specific_filters && 
+        category_specific_filters.map(filter => 
+          <Filter 
+            data={filter.filters}
+            name={filter.name}
+            isCheckboxList={true}
+          />
+          )
+      }
     </div>
   )
 }
