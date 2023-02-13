@@ -18,4 +18,4 @@ This project was created by the author as a Tech Assignment test.
 2. The Bootstrap Tooltip is functional but not formatted - to be fixed
 3. The JSON response didn't provide a few details (like the Discount or product links)
 
-#Enjoy!
+# Enjoy!
