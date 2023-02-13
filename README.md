@@ -1,4 +1,4 @@
-# Demo React + Typescript app
+# Demo Vite React + Bootstrap app
 
 This project was created by the author as a Tech Assignment test.
 
