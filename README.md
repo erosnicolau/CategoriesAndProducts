@@ -11,7 +11,7 @@ This project was created by the author as a Tech Assignment test.
 5. Install the dependencies with:
 	`npm install`
 6. Run the project with:
-	`npm start`
+	`npm run dev`
   
 # Notes
 1. The left menu loads with all boxes collapsed on Mobile (needs refresh to reload with all expanded on Desktop)
