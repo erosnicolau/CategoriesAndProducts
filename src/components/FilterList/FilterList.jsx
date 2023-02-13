@@ -1,9 +1,19 @@
 import React from "react";
 import Filter from "../Filter/Filter";
+import PriceRange from "../PriceRange/PriceRange";
 
 export default function FilterList(props) {
-  const { availability, categories, category_specific_filters, manufacturers } =
-    props.data;
+  const {
+    availability,
+    categories,
+    category_specific_filters,
+    manufacturers,
+    min_price,
+    max_price,
+    selected_min_price,
+    selected_max_price,
+  } = props.data;
+
   return (
     <div>
       {categories &&
@@ -20,6 +30,13 @@ export default function FilterList(props) {
           isCheckboxList={true}
         />
       )}
+      <PriceRange
+        min_price={min_price}
+        max_price={max_price}
+        selected_min_price={selected_min_price}
+        selected_max_price={selected_max_price}
+        name="Pret (RON)"
+      />
       {category_specific_filters &&
         category_specific_filters.map((filter) => (
           <Filter

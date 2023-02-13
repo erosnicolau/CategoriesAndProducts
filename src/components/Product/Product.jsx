@@ -7,7 +7,7 @@ export default function Product(props) {
   const { data } = props,
     { image, name, availability, price, rating, reviews } = data,
     discount = Math.floor(Math.random() * 21) + 5, // Making one up since the JSON doesn't provide any
-    priceValue = Number(price.split(" ")[0].split(",").join(".")),
+    priceValue = Number(price.replace('.', '').replace(',', '.').split(' ')[0]),
     currency = price.split(" ")[1],
     discountedPrice = priceValue - (priceValue * discount) / 100;
 
@@ -19,7 +19,7 @@ export default function Product(props) {
       ban = arr[1];
     return (
       <>
-        {ron}
+        {Number(ron).toLocaleString('ro-RO')}
         <sup>{ban}</sup>
       </>
     );

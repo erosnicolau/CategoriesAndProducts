@@ -1,0 +1,46 @@
+.range-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0 0;
+  &.collapsing {
+    visibility: hidden;
+  }
+}
+
+.range-label {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.range-track {
+  height: 4px;
+  width: 100%;
+  background-color: var(--green);
+  border-radius: 2px;
+  position: relative;
+}
+
+.range-thumb {
+  height: 16px;
+  width: 16px;
+  background-color: var(--green);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: grab;
+}
+
+.range-thumb:active {
+  cursor: grabbing;
+}
+
+.range-values {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  width: 100%;
+  font-size: 0.8rem;
+}

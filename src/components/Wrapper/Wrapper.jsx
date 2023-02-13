@@ -27,9 +27,7 @@ export default function Wrapper() {
           <div className="col col-12 col-md-8 col-lg-9">
             <div className="container">
               <SortMenu />
-              <>
-                <ProductList data={data.products} />
-              </>
+              <ProductList data={data.products} />
             </div>
           </div>
         </div>
